@@ -34,14 +34,10 @@ The Klemme-15 Car Control System is designed to control the operation of a car b
 - Microcontroller: AVR (ATmega32)
 - Development Environment: (Microchip Studio)
 
-## Contributing
+## Class 3 EUI_EME
 
-Contributions to this project are welcome. If you'd like to contribute, please follow these steps:
+![image](https://github.com/mahmoudhelmyy/Klemme-15/assets/52659572/90bf5f3e-3c0e-4eae-93f3-3d2bfd4a9c96)
 
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Make your changes and commit them.
-4. Push your changes to your fork.
-5. Create a pull request with a clear description of your changes.
+![image](https://github.com/mahmoudhelmyy/Klemme-15/assets/52659572/be5521e5-6aae-4d62-986b-82802e23b376)
 
 *MetaWare LLC, 8/26/2023*
