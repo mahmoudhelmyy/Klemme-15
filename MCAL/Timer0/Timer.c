@@ -13,17 +13,17 @@
 #include "Timer.h"
 
 /* =============================================================================================================
- * 											Global Variables
+ * 					        Global Variables
 /* =============================================================================================================*/
 /* Global Variable to Hold Timer0 Overflow Time */
 static float32 Global_f32Timer0OverflowTime = ((float32)TIMER0_PRESCALER/(float32)TIMER0_MCU_CLK_FREQ) * (float32)TIMER0_OVERFLOW_TICKS;	
 /* Pointer to Function to Hold Address of Overflow Function to Be Called Once Timer0 Overflow ISR is Triggered */
-static void (*TIMER0_pvOverflowCallbakFunc)(void);	
+static void (*TIMER0_pvOverflowCallbakFunc)(void) = NULL;
 /* Pointer to Function to Hold Address of Compare Match Function to Be Called Once Timer0 Compare Match ISR is Triggered */									
-static void (*TIMER0_pvComapareMatchCallbakFunc)(void);									
+static void (*TIMER0_pvComapareMatchCallbakFunc)(void) = NULL;
 
 /* =============================================================================================================
- * 											 Private Functions
+ * 						Private Functions
 /* =============================================================================================================*/
 
 /* =============================================================================================================
@@ -244,7 +244,7 @@ void TIMER0_vidStart(void)
 	      	/* Set Timer0 to work on external clock source on T0 pin (clock on rising edge) */
 		TCCR0 |= TIMER0_EXT_CLK_RISING_EDGE;
 	#else
-        	#error
+        	#error "Wrong Prescaler Configuration !"
 	#endif
 }
 /* =============================================================================================================
@@ -402,7 +402,7 @@ uint8 TIMER0_u8SetBusyWait_ms(uint32 Copy_u32DelayTime_ms)
 		Local_f32DelayTime_s = (float32)Copy_u32DelayTime_ms * 0.001f;
 
 		/* Get number of overflows required for Timer0 to reach passed delay */
-		Local_u32OverflowNum = SERV_u32CeilDev(Local_f32DelayTime_s,Global_f32Timer0OverflowTime);
+//		Local_u32OverflowNum = SERV_u32CeilDev(Local_f32DelayTime_s,Global_f32Timer0OverflowTime);
 
 		/* Get Preload Value */
 		Local_u8PreloadValue = TIMER0_u8CalculateTimer0PreloadVal(Local_f32DelayTime_s,Local_u32OverflowNum);
@@ -465,11 +465,11 @@ uint8 TIMER0_u8StartPWM(uint8 Copy_u8DutyCyclePercentage)
 }
 
 /* =============================================================================================================
-											Interrupt Handeler
+						  Interrupt Handelers
 /* =============================================================================================================*/
 
 /* =============================================================================================================*/
-/* 								Timer/Counter0 Overflow Interrupt	
+/* 				        Timer/Counter0 Overflow Interrupt
 /* =============================================================================================================*/
 
 void __vector_11 (void) __attribute__ ((signal,used, externally_visible)) ; 
@@ -484,7 +484,7 @@ void __vector_11 (void)
 }
 
 /* =============================================================================================================*/
-/*							Timer/Counter0 Compare Match Interrupt	
+/*				     Timer/Counter0 Compare Match Interrupt
 /* =============================================================================================================*/
 void __vector_10 (void) __attribute__ ((signal,used, externally_visible)) ; \
 void __vector_10 (void)
@@ -495,13 +495,4 @@ void __vector_10 (void)
 		/* Invoke Timer0 compare match function */
 		TIMER0_pvComapareMatchCallbakFunc();
 	}
-}
-void TIMER0_start(){
-	TCCR0 = (1<<FOC0)|(1<<CS00) | (1<<CS02);;
-	TIMSK = (1<<TOIE0);
-}
-
-void TIMER0_stop(){
-	TCCR0 = 0;
-	TIMSK = 0;
 }

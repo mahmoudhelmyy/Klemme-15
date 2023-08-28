@@ -55,17 +55,17 @@
 
 
 /* Mask of Timer0 Clock Selection Bits */
-#define TIMER0_CLK_MASK										0xF8
+#define TIMER0_CLK_MASK							 0xF8
 
 
 /* Timer0 Prescaler Selections */
-#define TIMER0_CLK_DIV_BY_NO_PRESCALER				        1 /* clkI/O/(No prescaling) */
-#define TIMER0_CLK_DIV_BY_8									2 /* clkI/O/8 (From prescaler) */
-#define TIMER0_CLK_DIV_BY_64								3 /* clkI/O/64 (From prescaler) */
-#define TIMER0_CLK_DIV_BY_256								4 /* clkI/O/256 (From prescaler) */
-#define TIMER0_CLK_DIV_BY_1024								5 /* clkI/O/1024 (From prescaler) */
-#define TIMER0_EXT_CLK_FALLING_EDGE							6 /* External clock source on T0 pin. Clock on falling edge */
-#define TIMER0_EXT_CLK_RISING_EDGE			       	        7 /* External clock source on T0 pin. Clock on rising edge */
+#define TIMER0_CLK_DIV_BY_NO_PRESCALER				         1 /* clkI/O/(No prescaling) */
+#define TIMER0_CLK_DIV_BY_8						 2 /* clkI/O/8 (From prescaler) */
+#define TIMER0_CLK_DIV_BY_64						 3 /* clkI/O/64 (From prescaler) */
+#define TIMER0_CLK_DIV_BY_256						 4 /* clkI/O/256 (From prescaler) */
+#define TIMER0_CLK_DIV_BY_1024						 5 /* clkI/O/1024 (From prescaler) */
+#define TIMER0_EXT_CLK_FALLING_EDGE					 6 /* External clock source on T0 pin. Clock on falling edge */
+#define TIMER0_EXT_CLK_RISING_EDGE			       	         7 /* External clock source on T0 pin. Clock on rising edge */
 
 
 /*-----------------------------------------------------------------------------------*/
@@ -75,14 +75,14 @@
 /*-----------------------------------------------------------------------------------*/
 
 /* Timer0 Operating Modes Options */
-#define OVERFLOW_MODE													 1
+#define OVERFLOW_MODE							 1
 #define PHASE_CORRECT_PWM_MODE                                           2
-#define CTC_MODE														 3
+#define CTC_MODE							 3
 #define FAST_PWM_MODE                                                    4
 
 
 /* Output Compare Match Pin Modes Options (Non PWM) */
-#define DISCONNECTED													 0
+#define DISCONNECTED							 0
 #define TOGGLE	                                                         1
 #define CLEAR	                                                         2
 #define SET																 3
@@ -101,11 +101,11 @@
 /* Timer0 Pre-scaler Options */
 #define CLK_DIV_BY_NO_PRESCALER	                                         1
 #define CLK_DIV_BY_8	                                                 8
-#define CLK_DIV_BY_64													 64
+#define CLK_DIV_BY_64							 64
 #define CLK_DIV_BY_256      	                                         256
 #define CLK_DIV_BY_1024                                                  1024
 #define EXT_CLK_FALLING_EDGE	                                         2
-#define EXT_CLK_RISING_EDGE												 3
+#define EXT_CLK_RISING_EDGE						 3
 
 /**********************************************************************************/
 /* Description     : Function to get ceil of the result of two dividend numbers   */
