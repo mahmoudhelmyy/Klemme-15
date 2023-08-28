@@ -13,7 +13,7 @@
 #ifndef APPLICATION_CFG_H_
 #define APPLICATION_CFG_H_
 
-
+/*==================== App Confiuration Macros ====================*/
 #define TEAM      	   "    Team MetaWare"
 #define TEAM_REVERSE       "    eraWateM meaT"
 #define NAME_1 		   "Mahmoud Helmy (1285)"

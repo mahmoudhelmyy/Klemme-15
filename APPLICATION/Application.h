@@ -8,6 +8,8 @@
 /*		  Hazzem Mohamed Ezzeldin (1297)                    */
 /*		  Yousef Khaled Ahmed (558)                         */
 /********************************************************************/
+
+/*==================== LIBRARIES ====================*/
 #include "../MCAL/ADC/Adc.h"
 #include "../HAL/LCD/AVR_LCD.h"
 #include "../MCAL/Timer0/Timer.h"
@@ -15,6 +17,8 @@
 #include "../MCAL/Interrupt/atmega32_Interrupts.h"
 #include "../Commons/atmega32_mapping.h"
 #include "Application_Cfg.h"
+
+/*==================== Functions ProtoTypes ====================*/
 void offMode(void);
 void readyMode(void);
 void alertMode(void);
@@ -22,6 +26,8 @@ void ignitionMode(void);
 void systemInit(void);
 void App(void);
 void welcomeScreen(void);
+
+/*==================== User-Defined Data Types ====================*/
 typedef enum
 {
 	OFF,
