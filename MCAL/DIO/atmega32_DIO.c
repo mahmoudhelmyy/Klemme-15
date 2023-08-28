@@ -1,12 +1,12 @@
 /********************************************************************/
-/*      SWC     : atmega32_DIO.c	                            */
+/*      SWC     : atmega32_DIO.c	                                */
 /*      Date    : 8/26/2023                                         */
 /*      Authors : MetaWare LLC                                      */
-/*		  Mahmoud Sayed Mahmoud Helmy (1285)                */
-/*		  Mohamed Mahmoud Masoud (200)                      */
-/*		  Mark Ehab Tawfik (201)                            */
-/*		  Hazzem Mohamed Ezzeldin (1297)                    */
-/*		  Yousef Khaled Ahmed (558)                         */
+/*				  Mahmoud Sayed Mahmoud Helmy (1285)                */
+/*		          Mohamed Mahmoud Masoud (200)                      */
+/*		          Mark Ehab Tawfik (201)                            */
+/*		          Hazzem Mohamed Ezzeldin (1297)                    */
+/*		          Yousef Khaled Ahmed (558)                         */
 /********************************************************************/
 
 #include "atmega32_DIO.h"
