@@ -2,14 +2,22 @@
 /*      SWC     : Application.h                                     */
 /*      Date    : 8/26/2023                                         */
 /*      Authors : MetaWare LLC                                      */
-/*		  Mahmoud Sayed Mahmoud Helmy (1285)                */
-/*		  Mohamed Mahmoud Masoud (200)                      */
-/*		  Mark Ehab Tawfik (201)                            */
-/*		  Hazzem Mohamed Ezzeldin (1297)                    */
-/*		  Yousef Khaled Ahmed (558)                         */
+/*				  Mahmoud Sayed Mahmoud Helmy (1285)                */
+/*		          Mohamed Mahmoud Masoud (200)                      */
+/*		          Mark Ehab Tawfik (201)                            */
+/*		          Hazzem Mohamed Ezzeldin (1297)                    */
+/*		          Yousef Khaled Ahmed (558)                         */
 /********************************************************************/
 
-/*==================== LIBRARIES ====================*/
+/* =============================================================
+ * 							File Guard
+ * =============================================================*/
+#ifndef APPLICATION_H_
+#define APPLICATION_H_
+
+/* =============================================================
+ * 							Includes
+ * =============================================================*/
 #include "../MCAL/ADC/Adc.h"
 #include "../HAL/LCD/AVR_LCD.h"
 #include "../MCAL/Timer0/Timer.h"
@@ -18,7 +26,9 @@
 #include "../Commons/atmega32_mapping.h"
 #include "Application_Cfg.h"
 
-/*==================== Functions ProtoTypes ====================*/
+/* =============================================================
+ * 						Function Prototypes
+ * =============================================================*/
 void offMode(void);
 void readyMode(void);
 void alertMode(void);
@@ -27,10 +37,14 @@ void systemInit(void);
 void App(void);
 void welcomeScreen(void);
 
-/*==================== User-Defined Data Types ====================*/
+ /* =============================================================
+ * 					User Defined Data Types
+ * =============================================================*/
 typedef enum
 {
 	OFF,
 	READY,
 	IGNITION
 }KLEMMA_STATE_t;
+
+#endif

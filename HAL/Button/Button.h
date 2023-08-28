@@ -1,12 +1,12 @@
 /********************************************************************/
-/*      SWC     : Button.h	                                    */
+/*      SWC     : Button.h	                                        */
 /*      Date    : 8/26/2023                                         */
 /*      Authors : MetaWare LLC                                      */
-/*		  Mahmoud Sayed Mahmoud Helmy (1285)                */
-/*		  Mohamed Mahmoud Masoud (200)                      */
-/*		  Mark Ehab Tawfik (201)                            */
-/*		  Hazzem Mohamed Ezzeldin (1297)                    */
-/*		  Yousef Khaled Ahmed (558)                         */
+/*				  Mahmoud Sayed Mahmoud Helmy (1285)                */
+/*		          Mohamed Mahmoud Masoud (200)                      */
+/*		          Mark Ehab Tawfik (201)                            */
+/*		          Hazzem Mohamed Ezzeldin (1297)                    */
+/*		          Yousef Khaled Ahmed (558)                         */
 /********************************************************************/
 /* =============================================================
  * 							File Guard
@@ -39,7 +39,18 @@
  * 							Function Prototypes
  * =============================================================*/
 
+/*
+Initializing  the pin directions of the pins that are connected to the keypad on the avr kit (Fares ATMega32 Kit)
+Arguments :			void
+Return:				void
+ */
 void Button_init(void);
+/*
+Reading the logical value of a single button
+Arguments:  ButtonPinColumn: The Column number of the button specified
+			ButtonPinColumn: The Row number of the button specified
+Return:		Logical value of the key specified
+*/
 uint8_t Button_Read(uint8_t ButtonPinColumn, uint8_t ButtonPinRow);
 
 #endif /* BUTTON_H_ */

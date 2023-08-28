@@ -1,20 +1,21 @@
 /********************************************************************/
-/*      SWC     : Timer_Private.c	                            */
+/*      SWC     : Timer_Private.c	                                */
+/*      Date    : 8/26/2023                                         */
 /*      Date    : 8/26/2023                                         */
 /*      Authors : MetaWare LLC                                      */
-/*		  Mahmoud Sayed Mahmoud Helmy (1285)                */
-/*		  Mohamed Mahmoud Masoud (200)                      */
-/*		  Mark Ehab Tawfik (201)                            */
-/*		  Hazzem Mohamed Ezzeldin (1297)                    */
-/*		  Yousef Khaled Ahmed (558)                         */
+/*				  Mahmoud Sayed Mahmoud Helmy (1285)                */
+/*		          Mohamed Mahmoud Masoud (200)                      */
+/*		          Mark Ehab Tawfik (201)                            */
+/*		          Hazzem Mohamed Ezzeldin (1297)                    */
+/*		          Yousef Khaled Ahmed (558)                         */
 /********************************************************************/
 
 #ifndef MCAL_TIMER0_PRIVATE_H_
 #define MCAL_TIMER0_PRIVATE_H_
 
 /* ============================================================================================================= 
-/*                           	               PRIVATE MACROS				     
-/* =============================================================================================================*/    
+                          	               PRIVATE MACROS				     
+=============================================================================================================*/    
 /* Define Timer0 Overflow Ticks */
 #define TIMER0_OVERFLOW_TICKS		                                 255 /* Maximum Number of Timer Ticks to Reach Overflow and Calculated Based on Timer Resolution (8 bits in case of Timer0) */
 

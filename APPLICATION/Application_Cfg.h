@@ -1,19 +1,23 @@
 /********************************************************************/
 /*      SWC     : Application_Cfg.h                                 */
 /*      Date    : 8/26/2023                                         */
+/*      Date    : 8/26/2023                                         */
 /*      Authors : MetaWare LLC                                      */
-/*		  Mahmoud Sayed Mahmoud Helmy (1285)                */
-/*		  Mohamed Mahmoud Masoud (200)                      */
-/*		  Mark Ehab Tawfik (201)                            */
-/*		  Hazzem Mohamed Ezzeldin (1297)                    */
-/*		  Yousef Khaled Ahmed (558)                         */
+/*				  Mahmoud Sayed Mahmoud Helmy (1285)                */
+/*		          Mohamed Mahmoud Masoud (200)                      */
+/*		          Mark Ehab Tawfik (201)                            */
+/*		          Hazzem Mohamed Ezzeldin (1297)                    */
+/*		          Yousef Khaled Ahmed (558)                         */
 /********************************************************************/
 
-
+/* =============================================================
+ * 							File Guard
+ * =============================================================*/
 #ifndef APPLICATION_CFG_H_
 #define APPLICATION_CFG_H_
-
-/*==================== App Confiuration Macros ====================*/
+ /* =============================================================
+ * 					 Definitions and Macros
+ * =============================================================*/
 #define TEAM      	   "    Team MetaWare"
 #define TEAM_REVERSE       "    eraWateM meaT"
 #define NAME_1 		   "Mahmoud Helmy (1285)"
@@ -24,8 +28,6 @@
 #define WELCOME            "Welcome..."
 #define START_CAR          "Start Engine"
 #define CLASS              "     EUI Group 3"
-#define COMPANY            " SEITech Solutions"
-
-
+#define COMPANY            "  SEITech Solutions"
 
 #endif /* APPLICATION_CFG_H_ */

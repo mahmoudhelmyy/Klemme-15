@@ -2,11 +2,11 @@
 /*      SWC     : atmega32_Interrupts.h	                            */
 /*      Date    : 8/26/2023                                         */
 /*      Authors : MetaWare LLC                                      */
-/*		  Mahmoud Sayed Mahmoud Helmy (1285)                */
-/*		  Mohamed Mahmoud Masoud (200)                      */
-/*		  Mark Ehab Tawfik (201)                            */
-/*		  Hazzem Mohamed Ezzeldin (1297)                    */
-/*		  Yousef Khaled Ahmed (558)                         */
+/*				  Mahmoud Sayed Mahmoud Helmy (1285)                */
+/*		          Mohamed Mahmoud Masoud (200)                      */
+/*		          Mark Ehab Tawfik (201)                            */
+/*		          Hazzem Mohamed Ezzeldin (1297)                    */
+/*		          Yousef Khaled Ahmed (558)                         */
 /********************************************************************/
 /* =============================================================
  * 							File Guard
@@ -20,6 +20,7 @@
 #include "../../Commons/std_types.h"
 #include "../../MCAL/DIO/atmega32_DIO.h"
 #include "../../Commons/Macros.h"
+#include "../../Commons/atmega32_mapping.h"
 
 /* =============================================================
  * 							Definitions
@@ -47,26 +48,46 @@
 #define INT0_ENABLE					0x40U
 #define INT2_ENABLE					0x20U
 
-#define INT0_Vector                __vector_1
-#define INT1_Vector                __vector_2
+#define INT0_Vector                VECTOR_1
+#define INT1_Vector                VECTOR_2
 /* =============================================================
  * 							Function Prototypes
  * =============================================================*/
-void Global_Interrupt_Init() ;
+/*
+Enabling Global Interrupt Bit, it is necessary for the initialization for each maskable Interrupts
+Arguments:			void
+Return:				void
+*/
 void GlobalInterrupt_enable(void);
+/*
+Enable for INT0 External Interrupt
+Arguments:			The interrupt sense control Mode.
+Return:				void
+*/
 void Ext_Int0_Enable(uint8 Mode);
 
+/*Disable for INT0 External Interrupt*/
 void Ext_Int0_Disable();
 
-void Ext_Int1_Enable();
+/*
+Enable for INT1 External Interrupt
+Arguments:			The interrupt sense control Mode.
+Return:				void
+*/
+void Ext_Int1_Enable(uint8 Mode);
 
+/*Disable for INT1 External Interrupt*/
 void Ext_Int1_Disable();
 
+/*
+Enable for INT2 External Interrupt
+Arguments:			The interrupt sense control Mode.
+Return:				void
+*/
 void Ext_Int2_Enable(uint8 Mode);
 
+/*Disable for INT0 External Interrupt*/
 void Ext_Int2_Disable();
-
-void CallbacktoPedestrianMode(void (*Callback_ptr)(void));
 
 /* =============================================================
  * 				Global Shared Variables and Pointers

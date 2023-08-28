@@ -1,12 +1,12 @@
 /********************************************************************/
-/*      SWC     : Adc.c		                                    */
+/*      SWC     : Adc.c		                                        */
 /*      Date    : 8/26/2023                                         */
 /*      Authors : MetaWare LLC                                      */
-/*		  Mahmoud Sayed Mahmoud Helmy (1285)                */
-/*		  Mohamed Mahmoud Masoud (200)                      */
-/*		  Mark Ehab Tawfik (201)                            */
-/*		  Hazzem Mohamed Ezzeldin (1297)                    */
-/*		  Yousef Khaled Ahmed (558)                         */
+/*				  Mahmoud Sayed Mahmoud Helmy (1285)                */
+/*		          Mohamed Mahmoud Masoud (200)                      */
+/*		          Mark Ehab Tawfik (201)                            */
+/*		          Hazzem Mohamed Ezzeldin (1297)                    */
+/*		          Yousef Khaled Ahmed (558)                         */
 /********************************************************************/
 
 #include "Adc.h"
@@ -16,11 +16,11 @@
 volatile uint16 * g_ADCBuffer;
 
 /* Interrupt service routine where the value of the ADC is saved in the    *
- * ADCBuffer variable.                                                     */
-ISR(__vector_16){
+ * ADCBuffer variable.
+                                                      */
+ISR(VECTOR_16){
     *g_ADCBuffer = ADC;
 }
-
 
 
 Std_ReturnType ADC_Init(const ADC_ConfigType *ConfigPtr) {

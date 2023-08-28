@@ -2,11 +2,11 @@
 /*      SWC     : atmega32_mapping.h                                */
 /*      Date    : 8/26/2023                                         */
 /*      Authors : MetaWare LLC                                      */
-/*		  Mahmoud Sayed Mahmoud Helmy (1285)                */
-/*		  Mohamed Mahmoud Masoud (200)                      */
-/*		  Mark Ehab Tawfik (201)                            */
-/*		  Hazzem Mohamed Ezzeldin (1297)                    */
-/*		  Yousef Khaled Ahmed (558)                         */
+/*				  Mahmoud Sayed Mahmoud Helmy (1285)                */
+/*		          Mohamed Mahmoud Masoud (200)                      */
+/*		          Mark Ehab Tawfik (201)                            */
+/*		          Hazzem Mohamed Ezzeldin (1297)                    */
+/*		          Yousef Khaled Ahmed (558)                         */
 /********************************************************************/
 /* =============================================================
  * 							File Guard
@@ -74,6 +74,8 @@
  * 							Interrupts
  * =============================================================*/
 
+/* Macros for writing interrupt handler functions */
+
 /* Concatenation Function */
 #define VECTOR(x) __vector_##x
 
@@ -81,6 +83,47 @@
 #define ISR(vector) \
 void vector (void) __attribute__ ((signal,used, externally_visible)) ; \
 void vector (void)
+
+/* External Interrupt Request 0 */
+#define VECTOR_1	VECTOR(1)
+/* External Interrupt Request 1 */
+#define VECTOR_2	VECTOR(2)
+/* External Interrupt Request 2 */
+#define VECTOR_3	VECTOR(3)
+/* Timer/Counter2 Compare Match */
+#define VECTOR_4	VECTOR(4)
+/* Timer/Counter2 Overflow */
+#define VECTOR_5	VECTOR(5)
+/* Timer/Counter1 Capture Event */
+#define VECTOR_6	VECTOR(6)
+/* Timer/Counter1 Compare Match A */
+#define VECTOR_7	VECTOR(7)
+/* Timer/Counter1 Compare Match B */
+#define VECTOR_8	VECTOR(8)
+/* Timer/Counter1 Overflow */
+#define VECTOR_9	VECTOR(9)
+/* Timer/Counter0 Compare Match */
+#define VECTOR_10	VECTOR(10)
+/* Timer/Counter0 Overflow */
+#define VECTOR_11	VECTOR(11)
+/* Serial Transfer Complete */
+#define VECTOR_12	VECTOR(12)
+/* USART, Rx Complete */
+#define VECTOR_13	VECTOR(13)
+/* USART Data Register Empty */
+#define VECTOR_14	VECTOR(14)
+/* USART, Tx Complete */
+#define VECTOR_15	VECTOR(15)
+/* ADC Conversion Complete */
+#define VECTOR_16	VECTOR(16)
+/* EEPROM Ready */
+#define VECTOR_17	VECTOR(17)
+/* Analog Comparator */
+#define VECTOR_18	VECTOR(18)
+/* Two-wire Serial Interface */
+#define VECTOR_19	VECTOR(19)
+/* Store Program Memory Ready */
+#define VECTOR_20	VECTOR(20)
 
 /* =============================================================
  * 							Shared
@@ -168,8 +211,6 @@ void vector (void)
 #define TOV1			2
 #define OCF0			1
 #define TOV0            0 
-						
-						
 						
 #endif /* ATMEGA32_MAPPING_H_ */
 						

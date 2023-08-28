@@ -2,18 +2,23 @@
 /*      SWC     : Application.c                                     */
 /*      Date    : 8/26/2023                                         */
 /*      Authors : MetaWare LLC                                      */
-/*		  Mahmoud Sayed Mahmoud Helmy (1285)                */
-/*		  Mohamed Mahmoud Masoud (200)                      */
-/*		  Mark Ehab Tawfik (201)                            */
-/*		  Hazzem Mohamed Ezzeldin (1297)                    */
-/*		  Yousef Khaled Ahmed (558)                         */
+/*				  Mahmoud Sayed Mahmoud Helmy (1285)                */
+/*		          Mohamed Mahmoud Masoud (200)                      */
+/*		          Mark Ehab Tawfik (201)                            */
+/*		          Hazzem Mohamed Ezzeldin (1297)                    */
+/*		          Yousef Khaled Ahmed (558)                         */
 /********************************************************************/
 
-/*==================== LIBRARIES ====================*/
+ /* =============================================================
+ * 							Includes
+ * =============================================================*/
+  
 #include "Application.h"
-#include <avr/interrupt.h>
 
-/*==================== Global Variables ====================*/
+ /* =============================================================
+ * 						Global Variables
+ * =============================================================*/
+  
 volatile int g_tick = 0;				/* Variable to hold Timer0 Ticks */
 volatile uint8 g_ready_cnt = 0;				/* Variable to indicate status of OVF interrupt return */
 volatile uint8 g_Timer0_start_once = 0;			/* Variable to indicated if Timer0 has started only once or not while in ready state */
@@ -132,7 +137,7 @@ void systemInit()
 void App()
 {
     /* Local Variables Definitions */
-    uint16_t readBuffer = 0;
+    uint16 readBuffer = 0;
     
     /*==================== System Initialization ====================*/
     /* Display APP Welcome Screen  */
@@ -277,7 +282,7 @@ void welcomeScreen() {
 	LCD_displayString(COMPANY);
 	LCD_moveCursor(1,0);
 	LCD_displayString(CLASS);
-	_delay_ms(3000);
+	_delay_ms(3000);		/* Delay for 3 seconds */
 	
 	/* Display Welcome Message */
 	LCD_clearScreen();

@@ -1,12 +1,13 @@
 /********************************************************************/
 /*      SWC     : atmega_DIO.h	                                    */
 /*      Date    : 8/26/2023                                         */
+/*      Date    : 8/26/2023                                         */
 /*      Authors : MetaWare LLC                                      */
-/*		  Mahmoud Sayed Mahmoud Helmy (1285)                */
-/*		  Mohamed Mahmoud Masoud (200)                      */
-/*		  Mark Ehab Tawfik (201)                            */
-/*		  Hazzem Mohamed Ezzeldin (1297)                    */
-/*		  Yousef Khaled Ahmed (558)                         */
+/*				  Mahmoud Sayed Mahmoud Helmy (1285)                */
+/*		          Mohamed Mahmoud Masoud (200)                      */
+/*		          Mark Ehab Tawfik (201)                            */
+/*		          Hazzem Mohamed Ezzeldin (1297)                    */
+/*		          Yousef Khaled Ahmed (558)                         */
 /********************************************************************/
 /* =============================================================
  * 							File Guard
@@ -58,46 +59,53 @@ typedef enum {
  * =============================================================*/
 
 /*
- Configure the direction (input/output) of a specific pin.
- The port number to which the pin belongs (PORTA_ID, PORTB_ID, etc.).
- The pin number within the port.
- The desired direction of the pin (PIN_INPUT or PIN_OUTPUT).
- 
+Configure the direction (input/output) of a specific pin.
+Arguments:  port_number: The port number to which the pin belongs (PORTA_ID, PORTB_ID, etc.).
+			pin_number: The pin number within the port.
+			direction: The desired direction of the pin (PIN_INPUT or PIN_OUTPUT).
+Return:		void
  */
 void DIO_setupPinDirection(uint8 port_number, uint8 pin_number,DIO_PinDirectionType direction);
 /*
 Configure the direction (input/output) of an entire port.
-The port number to configure (PORTA_ID, PORTB_ID, etc.).
-The desired direction of the entire port (PORT_INPUT or PORT_OUTPUT).
+Arguments:  port_number: The port number to configure (PORTA_ID, PORTB_ID, etc.).
+			direction: The desired direction of the entire port (PORT_INPUT or PORT_OUTPUT).
+Return:     void
  */
 void DIO_setupPortDirection(uint8 port_number, DIO_PinDirectionType direction);
 /*
 Read the logic value (high/low) of an entire port.
-The port number to read from (PORTA_ID, PORTB_ID, etc.).
-The logic value read from the port.
- */
+Arguments:			The port number to read from (PORTA_ID, PORTB_ID, etc.).
+Return:				An 8 bit number containing values of the pins in the port specified
+*/
 uint8 DIO_readPort(uint8 port_number);
 /*
 Write a logic value (high/low) to an entire port.
- The port number to write to (PORTA_ID, PORTB_ID, etc.).
- The value to write to the port.
- None.
- */
+Arguments:  The port number to write to (PORTA_ID, PORTB_ID, etc.).
+			The value to write to the port.
+Return:		void		
+*/
 void DIO_writePort(uint8 port_number, uint8 value);
 /*
 Read the logic value (high/low) of a specific pin.
- The port number to which the pin belongs (PORTA_ID, PORTB_ID, etc.).
- The pin number within the port.
- The logic value read from the pin (LOGIC_HIGH or LOGIC_LOW).
- */
+Arguments:  The port number to which the pin belongs (PORTA_ID, PORTB_ID, etc.).
+			The pin number within the port.
+Return:		The logic value read from the pin (LOGIC_HIGH or LOGIC_LOW). 
+*/
 uint8 DIO_readPin(uint8 port_number, uint8 pin_number);
 /*
  Write a logic value (high/low) to a specific pin.
- The port number to which the pin belongs (PORTA_ID, PORTB_ID, etc.).
- The pin number within the port.
- The value to write to the pin (LOGIC_HIGH or LOGIC_LOW).
- */
+ Arguments:  The port number to which the pin belongs (PORTA_ID, PORTB_ID, etc.).
+ 			The pin number within the port.
+ 			The value to write to the pin (LOGIC_HIGH or LOGIC_LOW).
+Return:		void
+*/
 void DIO_writePin(uint8 port_number, uint8 pin_number, uint8 value);
-
+/*
+Writing alternating logic value (high&low) of a specified pin.
+Arguments:			The port number to read from (PORTA_ID, PORTB_ID, etc.).
+					An 8 bit number containing values of the pins in the port specified
+Return:				void
+*/
 void DIO_TogglePin(uint8 Port,uint8 Pin);
 #endif /* ATMEGA32_DIO_H_ */
