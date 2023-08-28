@@ -1,14 +1,13 @@
-/*
- * AVR_LCD.h
- *
- *  Created on: Aug 20, 2023
- *      Author: MetaWare LLC
-		Mahmoud Sayed Mahmoud Helmy (1285)
-		Mohamed Mahmoud Masoud (200)
-		Mark Ehab Tawfik (201)
-		Hazzem Mohamed Ezzeldin (1297)
-		Yousef Khaled Ahmed (558)
- */
+/********************************************************************/
+/*      SWC     : AVR_LCD.h	                                    */
+/*      Date    : 8/26/2023                                         */
+/*      Authors : MetaWare LLC                                      */
+/*		  Mahmoud Sayed Mahmoud Helmy (1285)                */
+/*		  Mohamed Mahmoud Masoud (200)                      */
+/*		  Mark Ehab Tawfik (201)                            */
+/*		  Hazzem Mohamed Ezzeldin (1297)                    */
+/*		  Yousef Khaled Ahmed (558)                         */
+/********************************************************************/
 /* =============================================================
  * 							File Guard
  * =============================================================*/
@@ -77,12 +76,12 @@
  * =============================================================*/
 
 void LCD_init(void);
-void LCD_sendCommand(uint8 command);
-void LCD_displayCharacter(uint8 data);
+void LCD_sendCommand(uint8_t command);
+void LCD_displayCharacter(uint8_t data);
 void LCD_displayString(const char *Str);
 void LCD_clearScreen(void);
-void LCD_moveCursor(uint8 row, uint8 col);
-void LCD_displayStringRowColumn(uint8 row, uint8 col, const char *Str);
+void LCD_moveCursor(uint8_t row, uint8_t col);
+void LCD_displayStringRowColumn(uint8_t row, uint8_t col, const char *Str);
 void LCD_integerToString(int data);
 
 #endif /* LCD_H_ */

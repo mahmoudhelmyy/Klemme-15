@@ -1,14 +1,13 @@
-/*
- * Button.c
- *
- *  Created on: Aug 20, 2023
- *      Author: MetaWare LLC
-		Mahmoud Sayed Mahmoud Helmy (1285)
-		Mohamed Mahmoud Masoud (200)
-		Mark Ehab Tawfik (201)
-		Hazzem Mohamed Ezzeldin (1297)
-		Yousef Khaled Ahmed (558)
- */
+/********************************************************************/
+/*      SWC     : Button.h	                                    */
+/*      Date    : 8/26/2023                                         */
+/*      Authors : MetaWare LLC                                      */
+/*		  Mahmoud Sayed Mahmoud Helmy (1285)                */
+/*		  Mohamed Mahmoud Masoud (200)                      */
+/*		  Mark Ehab Tawfik (201)                            */
+/*		  Hazzem Mohamed Ezzeldin (1297)                    */
+/*		  Yousef Khaled Ahmed (558)                         */
+/********************************************************************/
 #include "Button.h"
 
 void Button_init(void)
@@ -22,9 +21,9 @@ void Button_init(void)
 	
 }
 
-uint8 Button_Read(uint8 ButtonPinColumn, uint8 ButtonPinRow){
+uint8_t Button_Read(uint8_t ButtonPinColumn, uint8_t ButtonPinRow){
 
-	uint8 ButtonStatus;
+	uint8_t ButtonStatus;
 
 	DIO_setupPinDirection(BUTTON_PORT_ROW_OUT,ButtonPinRow,PIN_OUTPUT);
 	DIO_writePin(BUTTON_PORT_ROW_OUT,ButtonPinRow,LOGIC_LOW);

@@ -1,14 +1,13 @@
-/*
- * AVR_LCD.h
- *
- *  Created on: Aug 20, 2023
- *      Author: MetaWare LLC
-		Mahmoud Sayed Mahmoud Helmy (1285)
-		Mohamed Mahmoud Masoud (200)
-		Mark Ehab Tawfik (201)
-		Hazzem Mohamed Ezzeldin (1297)
-		Yousef Khaled Ahmed (558)
- */
+/********************************************************************/
+/*      SWC     : AVR_LCD.c	                                    */
+/*      Date    : 8/26/2023                                         */
+/*      Authors : MetaWare LLC                                      */
+/*		  Mahmoud Sayed Mahmoud Helmy (1285)                */
+/*		  Mohamed Mahmoud Masoud (200)                      */
+/*		  Mark Ehab Tawfik (201)                            */
+/*		  Hazzem Mohamed Ezzeldin (1297)                    */
+/*		  Yousef Khaled Ahmed (558)                         */
+/********************************************************************/
 #include "AVR_LCD.h"
 #include <stdlib.h>
 
@@ -129,23 +128,22 @@ void LCD_clearScreen(void)
 }
 void LCD_moveCursor(uint8 row,uint8 col)
 {
-	
 	uint8 lcd_memory_address = 0;
 	
 	/* Calculate the required address in the LCD DDRAM */
 	switch(row)
 	{
 		case 0:
-		lcd_memory_address=col;
+		lcd_memory_address=col + 0x80;
 		break;
 		case 1:
-		lcd_memory_address=col+0x40;
+		lcd_memory_address=col+ 0xC0;
 		break;
 		case 2:
-		lcd_memory_address=col+0x14;
+		lcd_memory_address=col+ 0x94;
 		break;
 		case 3:
-		lcd_memory_address=col+0x54;
+		lcd_memory_address=col+ 0xD4;
 		break;
 	}
 	/* Move the LCD cursor to this specific address */

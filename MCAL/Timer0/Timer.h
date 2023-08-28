@@ -1,14 +1,14 @@
-/*
- * Timer.h
- *
- *  Created on: Aug 20, 2023
- *      Author: MetaWare LLC
-				Mahmoud Sayed Mahmoud Helmy (1285)
-				Mohamed Mahmoud Masoud (200)
-				Mark Ehab Tawfik (201)
-				Hazzem Mohamed Ezzeldin (1297)
-				Yousef Khaled Ahmed (558)
- */
+/********************************************************************/
+/*      SWC     : Timer.h	                                    */
+/*      Date    : 8/26/2023                                         */
+/*      Authors : MetaWare LLC                                      */
+/*		  Mahmoud Sayed Mahmoud Helmy (1285)                */
+/*		  Mohamed Mahmoud Masoud (200)                      */
+/*		  Mark Ehab Tawfik (201)                            */
+/*		  Hazzem Mohamed Ezzeldin (1297)                    */
+/*		  Yousef Khaled Ahmed (558)                         */
+/********************************************************************/
+
 /* =============================================================
  * 			File Guard
  * =============================================================*/
@@ -116,5 +116,11 @@ uint8 TIMER0_u8SetBusyWait_ms(uint32 Copy_u32DelayTime_ms);
 /* Return          : void						          */
 /**********************************************************************************/
 uint8 TIMER0_u8StartPWM(uint8 Copy_u8DutyCyclePercentage);
+/**********************************************************************************/
+/* Description     : Clear Timer0 overflow flag				          */
+/* Input Arguments : void							  */
+/* Return          : void						          */
+/**********************************************************************************/
+void TIMER0_vidClearOvfFlag(void);
 
 #endif /* MCAL_TIMER0_INTERFACE_H_ */

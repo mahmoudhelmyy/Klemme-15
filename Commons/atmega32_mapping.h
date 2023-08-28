@@ -1,12 +1,13 @@
-/*
- * atmega32_mapping.h
- *
- *  Created on: Aug 20, 2023
- *      Author: Group D
-				Mahmoud Sayed Mahmoud Helmy (1285)
-				Seif Eldine Atef Shebl (894)
-				Mohamed Mahmoud Masoud (200)
- */
+/********************************************************************/
+/*      SWC     : atmega32_mapping.h                                */
+/*      Date    : 8/26/2023                                         */
+/*      Authors : MetaWare LLC                                      */
+/*		  Mahmoud Sayed Mahmoud Helmy (1285)                */
+/*		  Mohamed Mahmoud Masoud (200)                      */
+/*		  Mark Ehab Tawfik (201)                            */
+/*		  Hazzem Mohamed Ezzeldin (1297)                    */
+/*		  Yousef Khaled Ahmed (558)                         */
+/********************************************************************/
 /* =============================================================
  * 							File Guard
  * =============================================================*/

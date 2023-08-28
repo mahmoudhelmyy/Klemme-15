@@ -1,14 +1,13 @@
-/*
- * Timer_Cfg.h
- *
- *  Created on: Aug 20, 2023
- *      Author: MetaWare LLC
-				Mahmoud Sayed Mahmoud Helmy (1285)
-				Mohamed Mahmoud Masoud (200)
-				Mark Ehab Tawfik (201)
-				Hazzem Mohamed Ezzeldin (1297)
-				Yousef Khaled Ahmed (558)
- */
+/********************************************************************/
+/*      SWC     : Timer_Cfg.h	                                    */
+/*      Date    : 8/26/2023                                         */
+/*      Authors : MetaWare LLC                                      */
+/*		  Mahmoud Sayed Mahmoud Helmy (1285)                */
+/*		  Mohamed Mahmoud Masoud (200)                      */
+/*		  Mark Ehab Tawfik (201)                            */
+/*		  Hazzem Mohamed Ezzeldin (1297)                    */
+/*		  Yousef Khaled Ahmed (558)                         */
+/********************************************************************/
 
 #ifndef MCAL_TIMER0_CONFIG_H_
 #define MCAL_TIMER0_CONFIG_H_

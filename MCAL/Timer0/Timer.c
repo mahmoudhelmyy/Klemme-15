@@ -1,14 +1,13 @@
-/*
- * Timer.c
- *
- *  Created on: Aug 20, 2023
- *      Author: MetaWare LLC
-				Mahmoud Sayed Mahmoud Helmy (1285)
-				Mohamed Mahmoud Masoud (200)
-				Mark Ehab Tawfik (201)
-				Hazzem Mohamed Ezzeldin (1297)
-				Yousef Khaled Ahmed (558)
- */
+/********************************************************************/
+/*      SWC     : Timer.c	                                    */
+/*      Date    : 8/26/2023                                         */
+/*      Authors : MetaWare LLC                                      */
+/*		  Mahmoud Sayed Mahmoud Helmy (1285)                */
+/*		  Mohamed Mahmoud Masoud (200)                      */
+/*		  Mark Ehab Tawfik (201)                            */
+/*		  Hazzem Mohamed Ezzeldin (1297)                    */
+/*		  Yousef Khaled Ahmed (558)                         */
+/********************************************************************/
 
 #include "Timer.h"
 
@@ -390,7 +389,7 @@ uint8 TIMER0_u8SetBusyWait_ms(uint32 Copy_u32DelayTime_ms)
 
 	if(Copy_u32DelayTime_ms < 4294967296)
 	{
-		float32 Local_f32DelayTime_s;               /* A variable to hold passed delay time in seconds */
+		float32 Local_f32DelayTime_s;           /* A variable to hold passed delay time in seconds */
 
 		uint32 Local_u32OverflowNum;		/* A variable to hold number of overflows required for Timer0 to achieve passed delay */
 
@@ -462,6 +461,16 @@ uint8 TIMER0_u8StartPWM(uint8 Copy_u8DutyCyclePercentage)
 	}
 
 	return Local_u8ErrorStatus;
+}
+/* =============================================================================================================*/
+/* Description     : Clear Timer0 overflow flag
+/* Input Arguments : void
+/* Return          : void
+/* =============================================================================================================*/
+void TIMER0_vidClearOvfFlag(void)
+{
+	  /* Clear TOV0 bit in TIFR Register by Writing Logical 1 to it */
+	  TIFR |= (1 << TOV0);
 }
 
 /* =============================================================================================================
