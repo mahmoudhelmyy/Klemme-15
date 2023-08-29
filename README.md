@@ -27,7 +27,8 @@ The Klemme-15 Car Control System is designed to control the operation of a car b
 - OFF Mode: All LEDs are turned off, and the LCD display shows "OFF."
 - READY Mode: The red LED is turned on, and the system waits for a specified duration before transitioning to ALERT mode.
 - IGNITION Mode: The red and blue LEDs are turned on, indicating the ignition state.
-
+## Folder Structure
+![Screenshot 2023-08-29 030540](https://github.com/mahmoudhelmyy/Klemme-15/assets/52659572/936ab6bb-ec7b-4c22-86f7-e850933a110f)
 ## Dependencies
 
 - Microcontroller: AVR (ATmega32)
