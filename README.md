@@ -13,11 +13,11 @@ This repository contains the source code and documentation for the Klemme-15 Car
 
 ## Team Members
 
-- Mahmoud Sayed Mahmoud Helmy (1285)
-- Mohamed Mahmoud Masoud (200)
-- Mark Ehab Tawfik (201)
-- Hazzem Mohamed Ezzeldin (1297)
-- Yousef Khaled Ahmed (558)
+![image](https://github.com/mahmoudhelmyy/Klemme-15/assets/52659572/dba39d47-2499-4e88-9f42-3bcaa94839c4)
+
+## Layered Architecture 
+
+![image](https://github.com/mahmoudhelmyy/Klemme-15/assets/52659572/0b063048-3f61-4985-b00e-6d1217b0bcd4)
 
 ## Project Overview
 
