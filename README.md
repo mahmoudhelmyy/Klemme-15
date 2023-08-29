@@ -5,11 +5,10 @@ This repository contains the source code and documentation for the Klemme-15 Car
 ## Table of Contents
 
 - [Team Members](#team-members)
+- [Layered Architecture](#Layered-Architecture)
 - [Project Overview](#project-overview)
-- [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Dependencies](#dependencies)
-- [Contributing](#contributing)
 
 ## Team Members
 
