@@ -1,0 +1,362 @@
+Checking Adc.c.dump...
+
+[MCAL/ADC/Adc.c:83]  ----> [misra-c2012-7.2]
+[MCAL/ADC/Adc.c:31]  ----> [misra-c2012-10.1]
+[MCAL/ADC/Adc.c:32]  ----> [misra-c2012-10.1]
+[MCAL/ADC/Adc.c:55]  ----> [misra-c2012-10.1]
+[MCAL/ADC/Adc.c:56]  ----> [misra-c2012-10.1]
+[MCAL/ADC/Adc.c:57]  ----> [misra-c2012-10.1]
+[MCAL/ADC/Adc.c:67]  ----> [misra-c2012-10.1]
+[MCAL/ADC/Adc.c:68]  ----> [misra-c2012-10.1]
+[MCAL/ADC/Adc.c:69]  ----> [misra-c2012-10.1]
+[MCAL/ADC/Adc.c:76]  ----> [misra-c2012-10.1]
+[MCAL/ADC/Adc.c:79]  ----> [misra-c2012-10.1]
+[MCAL/ADC/Adc.c:33]  ----> [misra-c2012-10.4]
+[MCAL/ADC/Adc.c:44]  ----> [misra-c2012-10.4]
+[MCAL/ADC/Adc.c:54]  ----> [misra-c2012-10.4]
+[MCAL/ADC/Adc.c:59]  ----> [misra-c2012-10.4]
+[MCAL/ADC/Adc.c:66]  ----> [misra-c2012-10.4]
+[MCAL/ADC/Adc.c:22]  ----> [misra-c2012-11.4]
+[MCAL/ADC/Adc.c:31]  ----> [misra-c2012-11.4]
+[MCAL/ADC/Adc.c:32]  ----> [misra-c2012-11.4]
+[MCAL/ADC/Adc.c:33]  ----> [misra-c2012-11.4]
+[MCAL/ADC/Adc.c:33]  ----> [misra-c2012-11.4]
+[MCAL/ADC/Adc.c:44]  ----> [misra-c2012-11.4]
+[MCAL/ADC/Adc.c:44]  ----> [misra-c2012-11.4]
+[MCAL/ADC/Adc.c:54]  ----> [misra-c2012-11.4]
+[MCAL/ADC/Adc.c:54]  ----> [misra-c2012-11.4]
+[MCAL/ADC/Adc.c:55]  ----> [misra-c2012-11.4]
+[MCAL/ADC/Adc.c:56]  ----> [misra-c2012-11.4]
+[MCAL/ADC/Adc.c:57]  ----> [misra-c2012-11.4]
+[MCAL/ADC/Adc.c:58]  ----> [misra-c2012-11.4]
+[MCAL/ADC/Adc.c:59]  ----> [misra-c2012-11.4]
+[MCAL/ADC/Adc.c:66]  ----> [misra-c2012-11.4]
+[MCAL/ADC/Adc.c:66]  ----> [misra-c2012-11.4]
+[MCAL/ADC/Adc.c:67]  ----> [misra-c2012-11.4]
+[MCAL/ADC/Adc.c:68]  ----> [misra-c2012-11.4]
+[MCAL/ADC/Adc.c:69]  ----> [misra-c2012-11.4]
+[MCAL/ADC/Adc.c:76]  ----> [misra-c2012-11.4]
+[MCAL/ADC/Adc.c:79]  ----> [misra-c2012-11.4]
+[MCAL/ADC/Adc.c:82]  ----> [misra-c2012-11.4]
+[MCAL/ADC/Adc.c:83]  ----> [misra-c2012-11.4]
+[MCAL/ADC/Adc.c:22]  ----> [misra-c2012-12.4]
+[MCAL/ADC/Adc.c:47]  ----> [misra-c2012-15.5]
+[MCAL/ADC/Adc.c:56]  ----> [misra-c2012-15.6]
+=======================================================================================
+[Commons/Macros.h:22]  ----> [misra-c2012-20.7]
+[Commons/Macros.h:23]  ----> [misra-c2012-20.7]
+[Commons/Macros.h:24]  ----> [misra-c2012-20.7]
+[Commons/Macros.h:25]  ----> [misra-c2012-20.7]
+=======================================================================================
+[Commons/atmega32_mapping.h:83]  ----> [misra-c2012-20.7]
+[Commons/atmega32_mapping.h:80]  ----> [misra-c2012-20.10]
+=======================================================================================
+Checking Application.c.dump...
+
+[APPLICATION/Application.c:65]  ----> [misra-c2012-10.4]
+[APPLICATION/Application.c:76]  ----> [misra-c2012-10.4]
+[APPLICATION/Application.c:182]  ----> [misra-c2012-10.4]
+[APPLICATION/Application.c:187]  ----> [misra-c2012-10.4]
+[APPLICATION/Application.c:130]  ----> [misra-c2012-17.7]
+[APPLICATION/Application.c:154]  ----> [misra-c2012-17.7]
+[APPLICATION/Application.c:174]  ----> [misra-c2012-17.7]
+=======================================================================================
+Checking atmega32_DIO.c.dump...
+
+[MCAL/DIO/atmega32_DIO.c:47]  ----> [misra-c2012-10.1]
+[MCAL/DIO/atmega32_DIO.c:49]  ----> [misra-c2012-10.1]
+[MCAL/DIO/atmega32_DIO.c:54]  ----> [misra-c2012-10.1]
+[MCAL/DIO/atmega32_DIO.c:56]  ----> [misra-c2012-10.1]
+[MCAL/DIO/atmega32_DIO.c:61]  ----> [misra-c2012-10.1]
+[MCAL/DIO/atmega32_DIO.c:63]  ----> [misra-c2012-10.1]
+[MCAL/DIO/atmega32_DIO.c:68]  ----> [misra-c2012-10.1]
+[MCAL/DIO/atmega32_DIO.c:70]  ----> [misra-c2012-10.1]
+[MCAL/DIO/atmega32_DIO.c:118]  ----> [misra-c2012-10.1]
+[MCAL/DIO/atmega32_DIO.c:120]  ----> [misra-c2012-10.1]
+[MCAL/DIO/atmega32_DIO.c:125]  ----> [misra-c2012-10.1]
+[MCAL/DIO/atmega32_DIO.c:127]  ----> [misra-c2012-10.1]
+[MCAL/DIO/atmega32_DIO.c:132]  ----> [misra-c2012-10.1]
+[MCAL/DIO/atmega32_DIO.c:134]  ----> [misra-c2012-10.1]
+[MCAL/DIO/atmega32_DIO.c:139]  ----> [misra-c2012-10.1]
+[MCAL/DIO/atmega32_DIO.c:141]  ----> [misra-c2012-10.1]
+[MCAL/DIO/atmega32_DIO.c:163]  ----> [misra-c2012-10.1]
+[MCAL/DIO/atmega32_DIO.c:170]  ----> [misra-c2012-10.1]
+[MCAL/DIO/atmega32_DIO.c:177]  ----> [misra-c2012-10.1]
+[MCAL/DIO/atmega32_DIO.c:184]  ----> [misra-c2012-10.1]
+[MCAL/DIO/atmega32_DIO.c:263]  ----> [misra-c2012-10.1]
+[MCAL/DIO/atmega32_DIO.c:266]  ----> [misra-c2012-10.1]
+[MCAL/DIO/atmega32_DIO.c:269]  ----> [misra-c2012-10.1]
+[MCAL/DIO/atmega32_DIO.c:272]  ----> [misra-c2012-10.1]
+[MCAL/DIO/atmega32_DIO.c:47]  ----> [misra-c2012-11.4]
+[MCAL/DIO/atmega32_DIO.c:49]  ----> [misra-c2012-11.4]
+[MCAL/DIO/atmega32_DIO.c:54]  ----> [misra-c2012-11.4]
+[MCAL/DIO/atmega32_DIO.c:56]  ----> [misra-c2012-11.4]
+[MCAL/DIO/atmega32_DIO.c:61]  ----> [misra-c2012-11.4]
+[MCAL/DIO/atmega32_DIO.c:63]  ----> [misra-c2012-11.4]
+[MCAL/DIO/atmega32_DIO.c:68]  ----> [misra-c2012-11.4]
+[MCAL/DIO/atmega32_DIO.c:70]  ----> [misra-c2012-11.4]
+[MCAL/DIO/atmega32_DIO.c:89]  ----> [misra-c2012-11.4]
+[MCAL/DIO/atmega32_DIO.c:92]  ----> [misra-c2012-11.4]
+[MCAL/DIO/atmega32_DIO.c:95]  ----> [misra-c2012-11.4]
+[MCAL/DIO/atmega32_DIO.c:98]  ----> [misra-c2012-11.4]
+[MCAL/DIO/atmega32_DIO.c:118]  ----> [misra-c2012-11.4]
+[MCAL/DIO/atmega32_DIO.c:120]  ----> [misra-c2012-11.4]
+[MCAL/DIO/atmega32_DIO.c:125]  ----> [misra-c2012-11.4]
+[MCAL/DIO/atmega32_DIO.c:127]  ----> [misra-c2012-11.4]
+[MCAL/DIO/atmega32_DIO.c:132]  ----> [misra-c2012-11.4]
+[MCAL/DIO/atmega32_DIO.c:134]  ----> [misra-c2012-11.4]
+[MCAL/DIO/atmega32_DIO.c:139]  ----> [misra-c2012-11.4]
+[MCAL/DIO/atmega32_DIO.c:141]  ----> [misra-c2012-11.4]
+[MCAL/DIO/atmega32_DIO.c:163]  ----> [misra-c2012-11.4]
+[MCAL/DIO/atmega32_DIO.c:170]  ----> [misra-c2012-11.4]
+[MCAL/DIO/atmega32_DIO.c:177]  ----> [misra-c2012-11.4]
+[MCAL/DIO/atmega32_DIO.c:184]  ----> [misra-c2012-11.4]
+[MCAL/DIO/atmega32_DIO.c:208]  ----> [misra-c2012-11.4]
+[MCAL/DIO/atmega32_DIO.c:211]  ----> [misra-c2012-11.4]
+[MCAL/DIO/atmega32_DIO.c:214]  ----> [misra-c2012-11.4]
+[MCAL/DIO/atmega32_DIO.c:217]  ----> [misra-c2012-11.4]
+[MCAL/DIO/atmega32_DIO.c:237]  ----> [misra-c2012-11.4]
+[MCAL/DIO/atmega32_DIO.c:240]  ----> [misra-c2012-11.4]
+[MCAL/DIO/atmega32_DIO.c:243]  ----> [misra-c2012-11.4]
+[MCAL/DIO/atmega32_DIO.c:246]  ----> [misra-c2012-11.4]
+[MCAL/DIO/atmega32_DIO.c:263]  ----> [misra-c2012-11.4]
+[MCAL/DIO/atmega32_DIO.c:266]  ----> [misra-c2012-11.4]
+[MCAL/DIO/atmega32_DIO.c:269]  ----> [misra-c2012-11.4]
+[MCAL/DIO/atmega32_DIO.c:272]  ----> [misra-c2012-11.4]
+[MCAL/DIO/atmega32_DIO.c:163]  ----> [misra-c2012-14.4]
+[MCAL/DIO/atmega32_DIO.c:170]  ----> [misra-c2012-14.4]
+[MCAL/DIO/atmega32_DIO.c:177]  ----> [misra-c2012-14.4]
+[MCAL/DIO/atmega32_DIO.c:184]  ----> [misra-c2012-14.4]
+[MCAL/DIO/atmega32_DIO.c:44]  ----> [misra-c2012-16.4]
+[MCAL/DIO/atmega32_DIO.c:87]  ----> [misra-c2012-16.4]
+[MCAL/DIO/atmega32_DIO.c:115]  ----> [misra-c2012-16.4]
+[MCAL/DIO/atmega32_DIO.c:161]  ----> [misra-c2012-16.4]
+[MCAL/DIO/atmega32_DIO.c:206]  ----> [misra-c2012-16.4]
+[MCAL/DIO/atmega32_DIO.c:235]  ----> [misra-c2012-16.4]
+[MCAL/DIO/atmega32_DIO.c:261]  ----> [misra-c2012-16.4]
+=======================================================================================
+Checking atmega32_Interrupts.c.dump...
+
+[MCAL/Interrupt/atmega32_Interrupts.c:21]  ----> [misra-c2012-10.1]
+[MCAL/Interrupt/atmega32_Interrupts.c:65]  ----> [misra-c2012-10.1]
+[MCAL/Interrupt/atmega32_Interrupts.c:33]  ----> [misra-c2012-10.4]
+[MCAL/Interrupt/atmega32_Interrupts.c:49]  ----> [misra-c2012-10.4]
+[MCAL/Interrupt/atmega32_Interrupts.c:21]  ----> [misra-c2012-11.4]
+[MCAL/Interrupt/atmega32_Interrupts.c:31]  ----> [misra-c2012-11.4]
+[MCAL/Interrupt/atmega32_Interrupts.c:32]  ----> [misra-c2012-11.4]
+[MCAL/Interrupt/atmega32_Interrupts.c:33]  ----> [misra-c2012-11.4]
+[MCAL/Interrupt/atmega32_Interrupts.c:33]  ----> [misra-c2012-11.4]
+[MCAL/Interrupt/atmega32_Interrupts.c:38]  ----> [misra-c2012-11.4]
+[MCAL/Interrupt/atmega32_Interrupts.c:47]  ----> [misra-c2012-11.4]
+[MCAL/Interrupt/atmega32_Interrupts.c:48]  ----> [misra-c2012-11.4]
+[MCAL/Interrupt/atmega32_Interrupts.c:49]  ----> [misra-c2012-11.4]
+[MCAL/Interrupt/atmega32_Interrupts.c:49]  ----> [misra-c2012-11.4]
+[MCAL/Interrupt/atmega32_Interrupts.c:54]  ----> [misra-c2012-11.4]
+[MCAL/Interrupt/atmega32_Interrupts.c:63]  ----> [misra-c2012-11.4]
+[MCAL/Interrupt/atmega32_Interrupts.c:64]  ----> [misra-c2012-11.4]
+[MCAL/Interrupt/atmega32_Interrupts.c:65]  ----> [misra-c2012-11.4]
+[MCAL/Interrupt/atmega32_Interrupts.c:69]  ----> [misra-c2012-11.4]
+=======================================================================================
+Checking AVR_LCD.c.dump...
+
+[HAL/LCD/AVR_LCD.c:137]  ----> [misra-c2012-7.2]
+[HAL/LCD/AVR_LCD.c:140]  ----> [misra-c2012-7.2]
+[HAL/LCD/AVR_LCD.c:143]  ----> [misra-c2012-7.2]
+[HAL/LCD/AVR_LCD.c:146]  ----> [misra-c2012-7.2]
+[HAL/LCD/AVR_LCD.c:58]  ----> [misra-c2012-10.1]
+[HAL/LCD/AVR_LCD.c:59]  ----> [misra-c2012-10.1]
+[HAL/LCD/AVR_LCD.c:60]  ----> [misra-c2012-10.1]
+[HAL/LCD/AVR_LCD.c:61]  ----> [misra-c2012-10.1]
+[HAL/LCD/AVR_LCD.c:68]  ----> [misra-c2012-10.1]
+[HAL/LCD/AVR_LCD.c:69]  ----> [misra-c2012-10.1]
+[HAL/LCD/AVR_LCD.c:70]  ----> [misra-c2012-10.1]
+[HAL/LCD/AVR_LCD.c:71]  ----> [misra-c2012-10.1]
+[HAL/LCD/AVR_LCD.c:90]  ----> [misra-c2012-10.1]
+[HAL/LCD/AVR_LCD.c:91]  ----> [misra-c2012-10.1]
+[HAL/LCD/AVR_LCD.c:92]  ----> [misra-c2012-10.1]
+[HAL/LCD/AVR_LCD.c:93]  ----> [misra-c2012-10.1]
+[HAL/LCD/AVR_LCD.c:100]  ----> [misra-c2012-10.1]
+[HAL/LCD/AVR_LCD.c:101]  ----> [misra-c2012-10.1]
+[HAL/LCD/AVR_LCD.c:102]  ----> [misra-c2012-10.1]
+[HAL/LCD/AVR_LCD.c:103]  ----> [misra-c2012-10.1]
+[HAL/LCD/AVR_LCD.c:58]  ----> [misra-c2012-10.4]
+[HAL/LCD/AVR_LCD.c:59]  ----> [misra-c2012-10.4]
+[HAL/LCD/AVR_LCD.c:60]  ----> [misra-c2012-10.4]
+[HAL/LCD/AVR_LCD.c:61]  ----> [misra-c2012-10.4]
+[HAL/LCD/AVR_LCD.c:68]  ----> [misra-c2012-10.4]
+[HAL/LCD/AVR_LCD.c:69]  ----> [misra-c2012-10.4]
+[HAL/LCD/AVR_LCD.c:70]  ----> [misra-c2012-10.4]
+[HAL/LCD/AVR_LCD.c:71]  ----> [misra-c2012-10.4]
+[HAL/LCD/AVR_LCD.c:90]  ----> [misra-c2012-10.4]
+[HAL/LCD/AVR_LCD.c:91]  ----> [misra-c2012-10.4]
+[HAL/LCD/AVR_LCD.c:92]  ----> [misra-c2012-10.4]
+[HAL/LCD/AVR_LCD.c:93]  ----> [misra-c2012-10.4]
+[HAL/LCD/AVR_LCD.c:100]  ----> [misra-c2012-10.4]
+[HAL/LCD/AVR_LCD.c:101]  ----> [misra-c2012-10.4]
+[HAL/LCD/AVR_LCD.c:102]  ----> [misra-c2012-10.4]
+[HAL/LCD/AVR_LCD.c:103]  ----> [misra-c2012-10.4]
+[HAL/LCD/AVR_LCD.c:137]  ----> [misra-c2012-10.4]
+[HAL/LCD/AVR_LCD.c:140]  ----> [misra-c2012-10.4]
+[HAL/LCD/AVR_LCD.c:143]  ----> [misra-c2012-10.4]
+[HAL/LCD/AVR_LCD.c:146]  ----> [misra-c2012-10.4]
+[HAL/LCD/AVR_LCD.c:150]  ----> [misra-c2012-10.4]
+[HAL/LCD/AVR_LCD.c:134]  ----> [misra-c2012-16.4]
+[HAL/LCD/AVR_LCD.c:160]  ----> [misra-c2012-17.7]
+[HAL/LCD/AVR_LCD.c:43]  ----> [misra-c2012-20.14]
+[HAL/LCD/AVR_LCD.c:80]  ----> [misra-c2012-20.14]
+[HAL/LCD/AVR_LCD.c:113]  ----> [misra-c2012-20.14]
+=======================================================================================
+Checking Button.c.dump...
+
+[HAL/Button/Button.c:34]  ----> [misra-c2012-10.1]
+[HAL/Button/Button.c:34]  ----> [misra-c2012-11.4]
+=======================================================================================
+Checking LED.c.dump...
+
+NO Violation ..
+=======================================================================================
+Checking main.c.dump...
+
+NO Violation ..
+=======================================================================================
+Checking Timer.c.dump...
+
+[MCAL/Timer0/Timer.c:40]  ----> [misra-c2012-7.2]
+[MCAL/Timer0/Timer.c:44]  ----> [misra-c2012-7.2]
+[MCAL/Timer0/Timer.c:118]  ----> [misra-c2012-7.2]
+[MCAL/Timer0/Timer.c:140]  ----> [misra-c2012-7.2]
+[MCAL/Timer0/Timer.c:223]  ----> [misra-c2012-7.2]
+[MCAL/Timer0/Timer.c:258]  ----> [misra-c2012-7.2]
+[MCAL/Timer0/Timer.c:196]  ----> [misra-c2012-10.1]
+[MCAL/Timer0/Timer.c:210]  ----> [misra-c2012-10.1]
+[MCAL/Timer0/Timer.c:298]  ----> [misra-c2012-10.1]
+[MCAL/Timer0/Timer.c:308]  ----> [misra-c2012-10.1]
+[MCAL/Timer0/Timer.c:318]  ----> [misra-c2012-10.1]
+[MCAL/Timer0/Timer.c:328]  ----> [misra-c2012-10.1]
+[MCAL/Timer0/Timer.c:419]  ----> [misra-c2012-10.1]
+[MCAL/Timer0/Timer.c:422]  ----> [misra-c2012-10.1]
+[MCAL/Timer0/Timer.c:473]  ----> [misra-c2012-10.1]
+[MCAL/Timer0/Timer.c:62]  ----> [misra-c2012-10.4]
+[MCAL/Timer0/Timer.c:390]  ----> [misra-c2012-10.4]
+[MCAL/Timer0/Timer.c:449]  ----> [misra-c2012-10.4]
+[MCAL/Timer0/Timer.c:118]  ----> [misra-c2012-11.4]
+[MCAL/Timer0/Timer.c:122]  ----> [misra-c2012-11.4]
+[MCAL/Timer0/Timer.c:140]  ----> [misra-c2012-11.4]
+[MCAL/Timer0/Timer.c:146]  ----> [misra-c2012-11.4]
+[MCAL/Timer0/Timer.c:196]  ----> [misra-c2012-11.4]
+[MCAL/Timer0/Timer.c:210]  ----> [misra-c2012-11.4]
+[MCAL/Timer0/Timer.c:223]  ----> [misra-c2012-11.4]
+[MCAL/Timer0/Timer.c:239]  ----> [misra-c2012-11.4]
+[MCAL/Timer0/Timer.c:258]  ----> [misra-c2012-11.4]
+[MCAL/Timer0/Timer.c:268]  ----> [misra-c2012-11.4]
+[MCAL/Timer0/Timer.c:278]  ----> [misra-c2012-11.4]
+[MCAL/Timer0/Timer.c:288]  ----> [misra-c2012-11.4]
+[MCAL/Timer0/Timer.c:298]  ----> [misra-c2012-11.4]
+[MCAL/Timer0/Timer.c:308]  ----> [misra-c2012-11.4]
+[MCAL/Timer0/Timer.c:318]  ----> [misra-c2012-11.4]
+[MCAL/Timer0/Timer.c:328]  ----> [misra-c2012-11.4]
+[MCAL/Timer0/Timer.c:419]  ----> [misra-c2012-11.4]
+[MCAL/Timer0/Timer.c:422]  ----> [misra-c2012-11.4]
+[MCAL/Timer0/Timer.c:473]  ----> [misra-c2012-11.4]
+[MCAL/Timer0/Timer.c:21]  ----> [misra-c2012-11.9]
+[MCAL/Timer0/Timer.c:23]  ----> [misra-c2012-11.9]
+[MCAL/Timer0/Timer.c:342]  ----> [misra-c2012-11.9]
+[MCAL/Timer0/Timer.c:367]  ----> [misra-c2012-11.9]
+[MCAL/Timer0/Timer.c:487]  ----> [misra-c2012-11.9]
+[MCAL/Timer0/Timer.c:500]  ----> [misra-c2012-11.9]
+[MCAL/Timer0/Timer.c:419]  ----> [misra-c2012-15.6]
+[MCAL/Timer0/Timer.c:452]  ----> [misra-c2012-17.7]
+=======================================================================================
+MISRA rules violations found:
+        Undefined: 238
+=======================================================================================
+MISRA rules violated:
+=======================================================================================
+        misra-c2012-7.2 (-): 11
+        misra-c2012-10.1 (-): 62
+        misra-c2012-10.4 (-): 35
+        misra-c2012-11.4 (-): 94
+        misra-c2012-11.9 (-): 6
+        misra-c2012-12.4 (-): 1
+        misra-c2012-14.4 (-): 4
+        misra-c2012-15.5 (-): 1
+        misra-c2012-15.6 (-): 2
+        misra-c2012-16.4 (-): 8
+        misra-c2012-17.7 (-): 5
+        misra-c2012-20.7 (-): 5
+        misra-c2012-20.10 (-): 1
+        misra-c2012-20.14 (-): 3
+=========================================================================================
+					Rules
+=========================================================================================
+Rule 7.2:
+
+Rule: Function-like macro defined without a braced initializer list.
+Explanation: This rule states that function-like macros should be defined using a braced initializer list to ensure that macro arguments are evaluated only once and that side effects are avoided.
+=========================================================================================
+Rule 10.1:
+
+Rule: The value of an expression of integer type shall not be implicitly converted to a different underlying type if:
+both types have the same signedness and
+the value is not representable in the target type.
+Explanation: This rule aims to prevent unintended implicit conversions that might lead to loss of data or precision, especially when converting between integer types of different sizes.
+=========================================================================================
+Rule 10.4:
+
+Rule: Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category.
+Explanation: This rule ensures that the operands of an operator have compatible types and that the arithmetic conversions performed between them do not lead to loss of information or unexpected behavior.
+=========================================================================================
+Rule 11.4:
+
+Rule: An array shall not be used with an index value that is less than zero or greater than or equal to the number of elements.
+Explanation: This rule helps prevent buffer overflows and out-of-bounds memory access by ensuring that array indices are within the valid range of indices.
+=========================================================================================
+Rule 11.9:
+
+Rule: An object with automatic storage duration declared in a block scope shall not be assigned to an object with a longer lifetime in the same scope.
+Explanation: This rule prevents issues that could arise from using objects after they have gone out of scope, helping to avoid undefined behavior.
+=========================================================================================
+Rule 12.4:
+
+Rule: A cast shall not be performed between a pointer to a function and a type other than an integral type.
+Explanation: This rule helps prevent potential issues that might occur when casting between function pointers and non-integral types.
+=========================================================================================
+Rule 14.4:
+
+Rule: The controlling expression of an if statement and the controlling expression of an iteration statement shall have essentially Boolean type.
+Explanation: This rule ensures that the conditions used for control statements like if and loops are of a Boolean type, preventing unintended side effects and logical errors.
+=========================================================================================
+Rule 15.5:
+
+Rule: If a function returns error information, then that error information shall be tested.
+Explanation: This rule enforces the checking of return codes/error information from functions that provide such information, helping to handle errors effectively.
+=========================================================================================
+Rule 15.6:
+
+Rule: An appropriate mechanism shall be used for confirming that a checksum value has been added to the image.
+Explanation: This rule aims to ensure that checksum values added to images are verified appropriately to enhance the integrity of the software.
+=========================================================================================
+Rule 16.4:
+
+Rule: The identifiers used in the declaration and definition of a function shall be identical.
+Explanation: This rule ensures consistency and clarity by requiring the function name to be the same in both its declaration and definition.
+=========================================================================================
+Rule 17.7:
+
+Rule: A function shall not be declared implicitly.
+Explanation: This rule ensures that functions are explicitly declared before they are used, avoiding potential issues with incorrect function signatures.
+=========================================================================================
+Rule 20.7:
+
+Rule: Pointer subtraction shall only be applied to pointers that address elements of the same array.
+Explanation: This rule prevents pointer subtraction between pointers pointing to elements of different arrays, which could lead to incorrect results.
+=========================================================================================
+Rule 20.10:
+
+Rule: The # and ## preprocessor operators should not be used.
+Explanation: This rule advises against using the # and ## operators in macros as they can lead to code that is harder to read and maintain.
+=========================================================================================
+Rule 20.14:
+
+Rule: The exception handling features shall not be used.
+Explanation: This rule suggests avoiding the use of C++ exception handling mechanisms in C code to ensure consistency and avoid potential compatibility issues.
