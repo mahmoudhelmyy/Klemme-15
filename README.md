@@ -5,19 +5,18 @@ This repository contains the source code and documentation for the Klemme-15 Car
 ## Table of Contents
 
 - [Team Members](#team-members)
+- [Layered Architecture](#Layered-Architecture)
 - [Project Overview](#project-overview)
-- [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Dependencies](#dependencies)
-- [Contributing](#contributing)
 
 ## Team Members
 
-- Mahmoud Sayed Mahmoud Helmy (1285)
-- Mohamed Mahmoud Masoud (200)
-- Mark Ehab Tawfik (201)
-- Hazzem Mohamed Ezzeldin (1297)
-- Yousef Khaled Ahmed (558)
+![image](https://github.com/mahmoudhelmyy/Klemme-15/assets/52659572/dba39d47-2499-4e88-9f42-3bcaa94839c4)
+
+## Layered Architecture 
+
+![image](https://github.com/mahmoudhelmyy/Klemme-15/assets/52659572/0b063048-3f61-4985-b00e-6d1217b0bcd4)
 
 ## Project Overview
 
@@ -28,7 +27,8 @@ The Klemme-15 Car Control System is designed to control the operation of a car b
 - OFF Mode: All LEDs are turned off, and the LCD display shows "OFF."
 - READY Mode: The red LED is turned on, and the system waits for a specified duration before transitioning to ALERT mode.
 - IGNITION Mode: The red and blue LEDs are turned on, indicating the ignition state.
-
+## Folder Structure
+![Screenshot 2023-08-29 030540](https://github.com/mahmoudhelmyy/Klemme-15/assets/52659572/936ab6bb-ec7b-4c22-86f7-e850933a110f)
 ## Dependencies
 
 - Microcontroller: AVR (ATmega32)
